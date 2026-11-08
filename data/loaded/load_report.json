@@ -1,0 +1,136 @@
+[
+  {
+    "doc_id": "hdfc-amc",
+    "facts_found": [
+      "amc_address",
+      "amc_aum",
+      "amc_ceo",
+      "amc_launch_date",
+      "amc_schemes"
+    ],
+    "facts_missing": [
+      "amc_cio",
+      "amc_website"
+    ],
+    "sections": 25,
+    "faqs": 5,
+    "used_embedded_json": true,
+    "text_chars": 20204
+  },
+  {
+    "doc_id": "hdfc-large-cap",
+    "facts_found": [
+      "aum",
+      "benchmark",
+      "category",
+      "exit_load",
+      "expense_ratio",
+      "fund_house",
+      "fund_manager",
+      "isin",
+      "launch_date",
+      "lock_in",
+      "min_lumpsum",
+      "min_sip",
+      "nav",
+      "nav_date",
+      "objective",
+      "risk",
+      "stamp_duty"
+    ],
+    "facts_missing": [
+      "tax"
+    ],
+    "sections": 16,
+    "faqs": 8,
+    "used_embedded_json": true,
+    "text_chars": 17064
+  },
+  {
+    "doc_id": "hdfc-flexi-cap",
+    "facts_found": [
+      "aum",
+      "benchmark",
+      "category",
+      "exit_load",
+      "expense_ratio",
+      "fund_house",
+      "fund_manager",
+      "isin",
+      "launch_date",
+      "lock_in",
+      "min_lumpsum",
+      "min_sip",
+      "nav",
+      "nav_date",
+      "objective",
+      "risk",
+      "stamp_duty"
+    ],
+    "facts_missing": [
+      "tax"
+    ],
+    "sections": 16,
+    "faqs": 8,
+    "used_embedded_json": true,
+    "text_chars": 18962
+  },
+  {
+    "doc_id": "hdfc-elss",
+    "facts_found": [
+      "aum",
+      "benchmark",
+      "category",
+      "exit_load",
+      "expense_ratio",
+      "fund_house",
+      "fund_manager",
+      "isin",
+      "launch_date",
+      "lock_in",
+      "min_lumpsum",
+      "min_sip",
+      "nav",
+      "nav_date",
+      "objective",
+      "risk",
+      "stamp_duty"
+    ],
+    "facts_missing": [
+      "tax"
+    ],
+    "sections": 13,
+    "faqs": 8,
+    "used_embedded_json": true,
+    "text_chars": 17251
+  },
+  {
+    "doc_id": "hdfc-mid-cap",
+    "facts_found": [
+      "aum",
+      "benchmark",
+      "category",
+      "exit_load",
+      "expense_ratio",
+      "fund_house",
+      "fund_manager",
+      "isin",
+      "launch_date",
+      "lock_in",
+      "min_lumpsum",
+      "min_sip",
+      "nav",
+      "nav_date",
+      "objective",
+      "risk",
+      "stamp_duty"
+    ],
+    "facts_missing": [
+      "tax"
+    ],
+    "sections": 16,
+    "faqs": 8,
+    "used_embedded_json": true,
+    "text_chars": 18637
+  }
+]

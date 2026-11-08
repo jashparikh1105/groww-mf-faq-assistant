@@ -1,0 +1,17 @@
+# secrets
+.env
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# downloaded models (re-downloaded automatically)
+.model_cache/
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Vercel
+.vercel

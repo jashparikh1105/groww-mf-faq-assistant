@@ -1,0 +1,63 @@
+PROBLEM STATEMENT — Mutual Fund FAQ Assistant (Facts-Only Q&A)
+Product chosen: Groww      AMC: HDFC Mutual Fund
+
+1. Background
+Retail investors on Groww repeatedly ask the same factual questions about mutual fund
+schemes: "What is the expense ratio?", "Is there an exit load?", "What is the minimum SIP?",
+"What is the ELSS lock-in?", "What is the riskometer / benchmark?". Support and content
+teams spend time answering these by hand, and generic chatbots often hallucinate numbers
+or slip into investment advice.
+
+2. Goal
+Build a small FAQ assistant that answers FACTUAL questions about a fixed set of HDFC Mutual
+Fund schemes using ONLY the content of the official public Groww pages listed below. It is a
+Retrieval-Augmented Generation (RAG) demo, so every stage (raw data, loaded documents,
+chunks, embeddings, vector DB) must be stored on disk so it can be shown.
+
+3. Corpus (scrape ONLY these 5 pages — do not follow internal links)
+  1. AMC overview — HDFC Mutual Fund
+     https://groww.in/mutual-funds/amc/hdfc-mutual-funds
+  2. Large Cap — HDFC Large Cap Fund Direct Growth
+     https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+  3. Flexi Cap — HDFC Flexi Cap Direct Plan Growth
+     https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+  4. ELSS (tax saver) — HDFC ELSS Tax Saver Fund Direct Plan Growth
+     https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+  5. Mid Cap — HDFC Mid Cap Fund Direct Growth
+     https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+
+4. Functional requirements
+  F1. Answer factual queries only: expense ratio, exit load, minimum SIP / lumpsum, lock-in
+      (ELSS), riskometer, benchmark, fund size, fund manager, NAV date, objective, stamp duty,
+      tax notes, AMC details, and "how to" questions found in the pages.
+  F2. Every answer shows exactly ONE clear citation link (the source page).
+  F3. Refuse opinion / portfolio questions ("Should I buy/sell?", "Which is best?") politely,
+      facts-only, with one relevant educational link (AMFI / SEBI investor education).
+  F4. Tiny UI: a welcome line, 3 example questions, and the note
+      "Facts-only. No investment advice."
+
+5. Constraints
+  C1. Public sources only. No app back-end screenshots, no third-party blogs.
+  C2. No PII. Do not accept or store PAN, Aadhaar, account numbers, OTPs, emails, phone numbers.
+  C3. No performance claims. Do not compute or compare returns; link to the official page.
+  C4. Answers are 3 sentences or fewer and end with "Last updated from sources: <date>".
+
+6. Technical requirements (from the working session)
+  - Phase-wise pipeline: Directory -> Scraping -> Loading -> Chunking -> Embedding ->
+    Vector DB -> Retrieval -> UI.
+  - Embedding model: sentence-transformers/all-MiniLM-L6-v2 (same model for ingestion and
+    retrieval).
+  - Vector DB: ChromaDB (same DB for ingestion and retrieval).
+  - LLM: Groq API, model name read from the .env file (default qwen/qwen3.8-27b);
+    pluggable alternatives: Gemini, OpenAI, Anthropic, Mistral.
+  - All tunable settings live in a config file.
+  - Code on GitHub; UI deployed on Vercel.
+
+7. Deliverables
+  Working prototype link, source list (CSV/MD), README (setup, scope, known limits),
+  sample Q&A file (5–10 queries with answers + links), disclaimer snippet.
+
+8. Success criteria
+  - Correct fact + correct link for in-scope questions.
+  - 100% refusal rate for advice and PII inputs in the test suite.
+  - No answer longer than 3 sentences; every answer carries a link and a "last updated" date.

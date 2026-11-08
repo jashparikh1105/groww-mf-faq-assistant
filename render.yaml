@@ -1,0 +1,27 @@
+# Render Blueprint — deploys the Python RAG API (FastAPI) on the free plan.
+services:
+  - type: web
+    name: hdfc-fund-facts-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && python scripts/prewarm.py
+    startCommand: uvicorn src.api:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: EMBEDDING_BACKEND
+        value: onnx
+      - key: LLM_PROVIDER
+        value: groq
+      - key: GROQ_MODEL
+        value: qwen/qwen3.8-27b
+      - key: GROQ_FALLBACK_MODEL
+        value: openai/gpt-oss-20b
+      - key: ANONYMIZED_TELEMETRY
+        value: "False"
+      - key: ALLOWED_ORIGINS
+        value: "*"
+      - key: GROQ_API_KEY
+        sync: false   # you paste the key in the Render dashboard

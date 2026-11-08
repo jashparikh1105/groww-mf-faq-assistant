@@ -1,0 +1,21 @@
+{
+  "strategy": "fact_faq_section",
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "total_chunks": 274,
+  "by_doc": {
+    "hdfc-amc": 50,
+    "hdfc-elss": 54,
+    "hdfc-flexi-cap": 57,
+    "hdfc-large-cap": 56,
+    "hdfc-mid-cap": 57
+  },
+  "by_type": {
+    "fact": 73,
+    "faq": 37,
+    "section": 164
+  },
+  "avg_chars": 468.6,
+  "max_chars": 999,
+  "min_chars": 47
+}

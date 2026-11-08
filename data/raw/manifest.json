@@ -1,0 +1,57 @@
+[
+  {
+    "doc_id": "hdfc-amc",
+    "url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+    "status": 200,
+    "ok": true,
+    "method": "requests",
+    "bytes": 250136,
+    "sha256": "0d2e5a742c758a5f5164c67813dfee04101bd3c39f3186cff324fc83c2417a45",
+    "file": "data\\raw\\hdfc-amc.html",
+    "scraped_at": "2026-11-08T08:03:25+00:00"
+  },
+  {
+    "doc_id": "hdfc-large-cap",
+    "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "status": 200,
+    "ok": true,
+    "method": "requests",
+    "bytes": 461088,
+    "sha256": "076e61e14e2f74cb80cbfd67a923005992b6675ae4c3a40fb80013d66c372c7c",
+    "file": "data\\raw\\hdfc-large-cap.html",
+    "scraped_at": "2026-11-08T08:03:28+00:00"
+  },
+  {
+    "doc_id": "hdfc-flexi-cap",
+    "url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "status": 200,
+    "ok": true,
+    "method": "requests",
+    "bytes": 501337,
+    "sha256": "f35476782198410ac4cc04d7d783ddcc36de9d40d18d4b6dd08e37bb725471bf",
+    "file": "data\\raw\\hdfc-flexi-cap.html",
+    "scraped_at": "2026-11-08T08:03:31+00:00"
+  },
+  {
+    "doc_id": "hdfc-elss",
+    "url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "status": 200,
+    "ok": true,
+    "method": "requests",
+    "bytes": 459072,
+    "sha256": "3bf0bb7be56173cb336b1b7ac4cbdc57280f6869933bb6a77a90e496218a354c",
+    "file": "data\\raw\\hdfc-elss.html",
+    "scraped_at": "2026-11-08T08:03:33+00:00"
+  },
+  {
+    "doc_id": "hdfc-mid-cap",
+    "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "status": 200,
+    "ok": true,
+    "method": "requests",
+    "bytes": 497167,
+    "sha256": "e3ad5f940174491baa13c29874200973a5eda7dfa0ec5af2b31261aa5e90a4d5",
+    "file": "data\\raw\\hdfc-mid-cap.html",
+    "scraped_at": "2026-11-08T08:03:36+00:00"
+  }
+]

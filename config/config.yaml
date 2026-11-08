@@ -1,0 +1,97 @@
+# ------------------------------------------------------------------
+# HDFC Fund Facts Assistant — central configuration
+# Change values here; no code changes needed.
+# Secrets (API keys) and LLM model names live in .env, not here.
+# ------------------------------------------------------------------
+
+project:
+  name: "HDFC Fund Facts Assistant"
+  product: "Groww"
+  amc: "HDFC Mutual Fund"
+
+paths:
+  raw_dir: "data/raw"
+  loaded_dir: "data/loaded"
+  chunks_dir: "data/chunks"
+  embeddings_dir: "data/embeddings"
+  vector_db_dir: "vector_db"
+  model_cache_dir: ".model_cache"
+
+# The ONLY pages that are scraped. Internal links are never followed.
+sources:
+  - doc_id: "hdfc-amc"
+    page_type: "amc"
+    label: "AMC overview — HDFC Mutual Fund"
+    scheme_name: "HDFC Mutual Fund (AMC)"
+    category: "AMC"
+    url: "https://groww.in/mutual-funds/amc/hdfc-mutual-funds"
+  - doc_id: "hdfc-large-cap"
+    page_type: "scheme"
+    label: "Large Cap — HDFC Large Cap Fund Direct Growth"
+    scheme_name: "HDFC Large Cap Fund Direct Growth"
+    category: "Large Cap"
+    url: "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+  - doc_id: "hdfc-flexi-cap"
+    page_type: "scheme"
+    label: "Flexi Cap — HDFC Flexi Cap Direct Plan Growth"
+    scheme_name: "HDFC Flexi Cap Fund Direct Plan Growth"
+    category: "Flexi Cap"
+    url: "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+  - doc_id: "hdfc-elss"
+    page_type: "scheme"
+    label: "ELSS (tax saver) — HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    scheme_name: "HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    category: "ELSS"
+    url: "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"
+  - doc_id: "hdfc-mid-cap"
+    page_type: "scheme"
+    label: "Mid Cap — HDFC Mid Cap Fund Direct Growth"
+    scheme_name: "HDFC Mid Cap Fund Direct Growth"
+    category: "Mid Cap"
+    url: "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+
+scraping:
+  timeout_seconds: 30
+  retries: 3
+  delay_between_requests_seconds: 2
+  min_valid_bytes: 20000          # smaller responses are treated as blocked/empty
+  use_playwright_fallback: true   # only used if requests fails and playwright is installed
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+
+chunking:
+  strategy: "fact_faq_section"    # fact cards + FAQ pairs + heading-aware recursive sections
+  chunk_size: 800                 # characters, for section chunks
+  chunk_overlap: 120
+  min_chunk_chars: 60
+  separators: ["\n\n", "\n", ". ", " "]
+
+embedding:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  dimension: 384
+  batch_size: 32
+  normalize: true
+  # backend is chosen by EMBEDDING_BACKEND in .env: "sentence-transformers" (laptop) or "onnx" (server)
+
+vector_db:
+  provider: "chromadb"
+  collection_name: "hdfc_mf_faq"
+  distance: "cosine"
+
+retrieval:
+  top_k: 5
+  max_distance: 0.80              # cosine distance; above this = "not found in my sources"
+  context_chunks_for_llm: 4
+
+llm:
+  temperature: 0.0
+  max_tokens: 400
+  timeout_seconds: 30
+
+answer:
+  max_sentences: 3
+  max_question_chars: 500
+
+education_links:
+  advice: "https://investor.sebi.gov.in/"
+  general: "https://www.mutualfundssahihai.com/en"
+  riskometer: "https://www.amfiindia.com/online-center/risk-o-meter"

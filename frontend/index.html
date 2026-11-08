@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HDFC Fund Facts Assistant</title>
+  <meta name="description" content="Facts-only FAQ assistant for HDFC Mutual Fund schemes, built on public Groww pages." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='16' fill='%2300D09C'/><text x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'>₹</text></svg>" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="mark" aria-hidden="true">₹</div>
+      <div>
+        <h1>HDFC Fund Facts Assistant</h1>
+        <p class="subtitle">Answers from public Groww pages · HDFC Mutual Fund</p>
+      </div>
+    </div>
+    <span class="pill" id="disclaimer">Facts-only. No investment advice.</span>
+  </header>
+
+  <main class="container">
+    <section class="welcome" id="welcome">
+      <h2>Hi! Ask me a fact about an HDFC fund 👋</h2>
+      <p>I answer factual questions such as expense ratio, exit load, minimum SIP, ELSS lock-in, riskometer and benchmark
+        for <strong>HDFC Large Cap, Flexi Cap, ELSS Tax Saver and Mid Cap</strong> funds. Every answer links to its source.</p>
+      <div class="examples" id="examples">
+        <button class="example">What is the expense ratio of HDFC Mid Cap Fund?</button>
+        <button class="example">What is the lock-in period of HDFC ELSS Tax Saver?</button>
+        <button class="example">What is the exit load of HDFC Flexi Cap Fund?</button>
+      </div>
+    </section>
+
+    <section class="chat" id="chat" aria-live="polite"></section>
+  </main>
+
+  <div class="composer-wrap">
+    <form class="composer" id="composer" autocomplete="off">
+      <input id="question" type="text" maxlength="500" placeholder="Ask a factual question, e.g. Minimum SIP for HDFC Large Cap Fund?" aria-label="Your question" />
+      <button id="send" type="submit" aria-label="Send">Ask</button>
+    </form>
+    <p class="hint">🔒 Please don't enter PAN, Aadhaar, account/folio numbers, OTPs, phone numbers or email. Nothing you type is stored.</p>
+  </div>
+
+  <footer class="footer">
+    <details>
+      <summary>Sources used (5 public pages) · Last updated from sources: <span id="last-updated">—</span></summary>
+      <ul id="sources">
+        <li><a href="https://groww.in/mutual-funds/amc/hdfc-mutual-funds" target="_blank" rel="noopener">AMC overview — HDFC Mutual Fund</a></li>
+        <li><a href="https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth" target="_blank" rel="noopener">HDFC Large Cap Fund Direct Growth</a></li>
+        <li><a href="https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth" target="_blank" rel="noopener">HDFC Flexi Cap Direct Plan Growth</a></li>
+        <li><a href="https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth" target="_blank" rel="noopener">HDFC ELSS Tax Saver Fund Direct Plan Growth</a></li>
+        <li><a href="https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth" target="_blank" rel="noopener">HDFC Mid Cap Fund Direct Growth</a></li>
+      </ul>
+    </details>
+    <p class="legal">Facts-only. No investment advice. Information is taken from public pages and may change; always verify on the
+      linked source and read all scheme-related documents carefully. Mutual fund investments are subject to market risks.
+      Independent learning project, not affiliated with Groww or HDFC Asset Management Company.</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

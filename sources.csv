@@ -1,0 +1,9 @@
+id,doc_id,type,scheme_or_page,category,url,publisher,used_for
+1,hdfc-amc,AMC overview,HDFC Mutual Fund,AMC,https://groww.in/mutual-funds/amc/hdfc-mutual-funds,Groww (public page),AMC facts; fund house details; FAQs
+2,hdfc-large-cap,Scheme page,HDFC Large Cap Fund Direct Growth,Large Cap,https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth,Groww (public page),Expense ratio; exit load; min SIP; riskometer; benchmark; fund manager; objective
+3,hdfc-flexi-cap,Scheme page,HDFC Flexi Cap Direct Plan Growth,Flexi Cap,https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth,Groww (public page),Expense ratio; exit load; min SIP; riskometer; benchmark; fund manager; objective
+4,hdfc-elss,Scheme page,HDFC ELSS Tax Saver Fund Direct Plan Growth,ELSS,https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth,Groww (public page),Lock-in; expense ratio; exit load; min SIP; riskometer; benchmark; tax
+5,hdfc-mid-cap,Scheme page,HDFC Mid Cap Fund Direct Growth,Mid Cap,https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth,Groww (public page),Expense ratio; exit load; min SIP; riskometer; benchmark; fund manager; objective
+6,edu-sebi,Education link (refusals only),SEBI Investor Website,Education,https://investor.sebi.gov.in/,SEBI,Link shown when refusing advice questions
+7,edu-amfi,Education link (refusals only),Mutual Funds Sahi Hai (AMFI),Education,https://www.mutualfundssahihai.com/en,AMFI,Link shown when refusing PII / off-topic inputs
+8,edu-riskometer,Education link,AMFI Risk-o-meter,Education,https://www.amfiindia.com/online-center/risk-o-meter,AMFI,Reference for riskometer explanation

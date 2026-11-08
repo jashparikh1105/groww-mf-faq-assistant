@@ -1,0 +1,8 @@
+# Server / app requirements (Render + local app). No PyTorch here.
+chromadb==1.5.9
+fastapi>=0.115
+uvicorn[standard]>=0.30
+httpx>=0.27
+python-dotenv>=1.0
+PyYAML>=6.0
+pydantic>=2.7

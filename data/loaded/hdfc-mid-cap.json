@@ -1,0 +1,169 @@
+{
+  "doc_id": "hdfc-mid-cap",
+  "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+  "page_type": "scheme",
+  "scheme_name": "HDFC Mid Cap Fund Direct Growth",
+  "category": "Mid Cap",
+  "title": "HDFC Mid Cap Fund Direct Growth - NAV, Mutual Fund Performance & Portfolio",
+  "meta_description": "HDFC Mid Cap Fund Direct Growth - Get latest NAV, SIP Returns & Rankings, Ratings, Fund Performance, Portfolio, Expense Ratio, Holding Analysis, and Peers.\n  Invest in HDFC Mid Cap Fund Online with Groww.",
+  "scraped_at": "2026-11-08",
+  "facts": {
+    "expense_ratio": "0.74%",
+    "exit_load": "Exit load of 1% if redeemed within 1 year.",
+    "min_sip": "₹100",
+    "min_lumpsum": "₹100",
+    "lock_in": "No lock-in",
+    "risk": "Moderately High risk",
+    "benchmark": "NIFTY Midcap 150 Total Return Index",
+    "aum": "₹101,856.06 Cr",
+    "nav": "₹226.04",
+    "nav_date": "06-Nov-2026",
+    "launch_date": "01-Jan-2013",
+    "category": "Mid Cap",
+    "fund_manager": "Chirag Setalvad",
+    "objective": "The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies.",
+    "stamp_duty": "0.005% (from July 1st, 2020)",
+    "fund_house": "HDFC Mutual Fund",
+    "isin": "INF179K01XQ0"
+  },
+  "fact_labels": {
+    "expense_ratio": "Expense ratio",
+    "exit_load": "Exit load",
+    "min_sip": "Minimum SIP amount",
+    "min_lumpsum": "Minimum lumpsum (one-time) amount",
+    "lock_in": "Lock-in period",
+    "risk": "Riskometer (risk level)",
+    "benchmark": "Benchmark",
+    "aum": "Fund size (AUM)",
+    "nav": "NAV",
+    "nav_date": "NAV date",
+    "launch_date": "Launch date",
+    "category": "Category",
+    "fund_manager": "Fund manager(s)",
+    "objective": "Investment objective",
+    "stamp_duty": "Stamp duty",
+    "fund_house": "Fund house",
+    "isin": "ISIN"
+  },
+  "fact_provenance": {
+    "expense_ratio": "json:expense_ratio",
+    "exit_load": "json:exit_load",
+    "min_sip": "json:min_sip_investment",
+    "min_lumpsum": "json:min_investment_amount",
+    "lock_in": "json:lock_in",
+    "risk": "json:nfo_risk",
+    "benchmark": "json:benchmark_name",
+    "aum": "json:aum",
+    "nav": "json:nav",
+    "nav_date": "json:nav_date",
+    "launch_date": "json:launch_date",
+    "category": "json:sub_category",
+    "fund_manager": "json:fund_manager",
+    "objective": "json:description",
+    "stamp_duty": "json:stamp_duty",
+    "fund_house": "json:fund_house",
+    "isin": "json:isin"
+  },
+  "sections": [
+    {
+      "heading": "Overview",
+      "text": "Stocks\nInvest in Stocks\nInvest in stocks, ETFs, IPOs with fast orders. Track returns on your stock holdings and view real-time P&L on your positions.\nIntraday\nMonitor top intraday performers in real time\nETF Screener\nGet the best of Mutual Funds and flexibility of Stocks\nIPO\nTrack upcoming and ongoing IPOs\nMTFs\nBuy now, pay later\nStock Screener\nFilter based on RSI, PE ratio and more\nStock Events\nDividends, bonus, buybacks and more\nDemat Account\nBegin your stock market journey\nShare Market Today\nLive news updates from stock market\nF&O\nTrade in Futures & Options\nTrade in F&O using the terminal. View charts, indicators, track your orders , P&L and watchlists in a single space\nIndices\nTrack markets across the globe\nTerminal\nTrack charts, orders, positions, watchlists in one place\nOption chain\nAnalyse chains, view payoffs, create baskets\nPledge\nGet extra balance for trading\nCommodities\nTrade in Crude Oil, Gold, Silver and more\nAPI trading\nSet up and execute trades through our API\nMutual Funds\nInvest in Mutual Funds\nInvest in direct mutual funds at zero charges via lump sump investments or SIPs\nMutual Fund Houses\nKnow about AMCs, funds, fund managers\nNFO’s\nTrack all active NFOs in one place\nMutual Funds by Groww\nMutual funds by Groww designed for your investment goals\nStart SIP\nBuild long-term wealth through disciplined monthly investing.\nMutual Funds screener\nFilter funds based on risk, fund size and more\nTrack Funds\nImport funds and track all investments in a single place\nCompare Funds\nMore\nSIP calculator\nEstimate returns on a SIP\nBrokerage calculator\nEstimate charges for your trade/investment\nMargin calculator\nEstimate balance needed to buy/sell a stock\nSWP calculator\nReturns on your systematic withdrawal plan\nPricing\nBrokerage and charges on Groww\nBlog\nCredit\nLoan against securities and Personal loan\n+16.38\n3Y annualised\n-0.04\n1D\nNAV: 06 Nov '26\n₹226.05\nMin. for SIP\n₹100\nFund size (AUM)\n₹1,01,856.06 Cr\nExpense ratio\n0.74%\nRating"
+    },
+    {
+      "heading": "Return calculator",
+      "text": "One time\nMonthly investment\n₹5,000\nOver the past\nTotal investment\nWould've become\nHistoric returns\nReturns\n1 year\n₹60,000\n₹61,065\n1.77\n3 years\n₹1,80,000\n₹2,01,317\n11.84\n5 years\n₹3,00,000\n₹4,48,440\n49.48\n10 years\n₹6,00,000\n₹16,03,306\n167.22"
+    },
+    {
+      "heading": "Holdings ( 81 )",
+      "text": "Name\nSector\nInstruments\nAssets\nRepo\nUnspecified\nRepo\n8.37%\nThe Federal Bank Ltd\nFinancial\nEquity\n3.98%\nAU Small Finance Bank Ltd\nFinancial\nEquity\n3.94%\nMax Financial Services Ltd\nFinancial\nEquity\n3.52%\nIpca Laboratories Ltd\nHealthcare\nEquity\n3.43%\nGlenmark Pharmaceuticals Ltd\nHealthcare\nEquity\n3.07%\nBalkrishna Industries Ltd\nConsumer Discretionary\nEquity\n2.98%\nIndian Bank\nFinancial\nEquity\n2.92%\nCoforge Ltd\nTechnology\nEquity\n2.68%\nFortis Healthcare Ltd\nHealthcare\nEquity\n2.40%\nMarico Ltd\nConsumer Staples\nEquity\n2.37%\nVishal Mega Mart Ltd.\nConsumer Staples\nEquity\n2.24%\nAurobindo Pharma Ltd\nHealthcare\nEquity\n2.19%\nMahindra & Mahindra Financial Services Ltd\nFinancial\nEquity\n2.11%\nHindustan Petroleum Corporation Ltd\nEnergy & Utilities\nEquity\n2.09%\nUnited Spirits Ltd\nConsumer Staples\nEquity\n1.90%\nCummins India Ltd\nIndustrials\nEquity\n1.82%\nTata Communications Ltd\nTechnology\nEquity\n1.81%\nPersistent Systems Ltd\nTechnology\nEquity\n1.78%\nGland Pharma Ltd\nHealthcare\nEquity\n1.73%\nAlkem Laboratories Ltd\nHealthcare\nEquity\n1.72%\nDabur India Ltd\nConsumer Staples\nEquity\n1.66%\nApollo Tyres Ltd\nConsumer Discretionary\nEquity\n1.66%\nJindal Steel & Power Ltd\nMaterials\nEquity\n1.64%\nMphasis Ltd\nTechnology\nEquity\n1.55%\nUnion Bank of India\nFinancial\nEquity\n1.51%\nBosch Ltd\nConsumer Discretionary\nEquity\n1.44%\nZomato Ltd\nTechnology\nEquity\n1.35%\nAIA Engineering Ltd\nIndustrials\nEquity\n1.29%\nDelhivery Ltd\nIndustrials\nEquity\n1.27%\nKarur Vysya Bank Ltd\nFinancial\nEquity\n1.25%\nBharat Forge Ltd\nConsumer Discretionary\nEquity\n1.22%\nCoromandel International Ltd\nMaterials\nEquity\n1.19%\nRedington Ltd\nTechnology\nEquity\n1.10%\nStar Health & Allied Insurance Co. Ltd\nFinancial\nEquity\n1.08%\nPB Fintech Ltd\nFinancial\nEquity\n1.07%\nIndusind Bank Ltd\nFinancial\nEquity\n1.04%\nNippon Life India Asset Management Ltd\nFinancial\nEquity\n1.04%\nThe Indian Hotels Company Ltd\nConsumer Discretionary\nEquity\n1.01%\nGodrej Consumer Products Ltd\nConsumer Staples\nEquity\n0.98%\nICICI Lombard General Insurance Company Ltd\nFinancial\nEquity\n0.95%\nAster DM Healthcare Ltd\nHealthcare\nEquity\n0.90%\nHavells India Ltd\nConsumer Discretionary\nEquity\n0.84%\nSona BLW Precision Forgings Ltd\nConsumer Discretionary\nEquity\n0.82%\nSundram Fasteners Ltd\nIndustrials\nEquity\n0.81%\nEscorts Kubota Ltd\nIndustrials\nEquity\n0.79%\nHEXAWARE TECHNOLOGIES LIMITED EQ NEW FV RS.2/-\nTechnology\nEquity\n0.78%\nCity Union Bank Ltd\nFinancial\nEquity\n0.74%\nIndraprastha Gas Ltd\nEnergy & Utilities\nEquity\n0.73%\nDixon Technologies (India) Ltd\nConsumer Discretionary\nEquity\n0.66%\nSKF India (Industrial) Ltd\nIndustrials\nEquity\n0.64%\nTimken India Ltd\nIndustrials\nEquity\n0.60%\nGujarat Fluorochemicals Ltd\nMaterials\nEquity\n0.60%\nCrompton Greaves Consumer Electricals Ltd\nConsumer Discretionary\nEquity\n0.59%\nSupreme Industries Ltd\nMaterials\nEquity\n0.56%\nACC Ltd\nMaterials\nEquity\n0.56%\nArvind Ltd\nConsumer Discretionary\nEquity\n0.43%\nPetronet LNG Ltd\nEnergy & Utilities\nEquity\n0.36%\nOracle Financial Services Software Ltd\nTechnology\nEquity\n0.36%\nAarti Industries Ltd\nMaterials\nEquity\n0.36%\nSKF India Ltd\nIndustrials\nEquity\n0.35%\nCholamandalam Financial Holdings Ltd\nFinancial\nEquity\n0.31%\nVardhman Textiles Ltd\nConsumer Discretionary\nEquity\n0.30%\nVesuvius India Ltd\nIndustrials\nEquity\n0.30%\nKEC International Ltd\nDiversified\nEquity\n0.30%\nMahindra CIE Automotive Ltd\nConsumer Discretionary\nEquity\n0.27%\nSymphony Ltd\nConsumer Discretionary\nEquity\n0.21%\nFive-Star Business Finance Ltd\nFinancial\nEquity\n0.20%\nBharti Hexacom Ltd.\nTechnology\nEquity\n0.19%\nColgate-Palmolive (India) Ltd\nConsumer Staples\nEquity\n0.18%\nBillionbrains Garage Ventures Ltd.\nFinancial\nEquity\n0.18%\nLG Electronics India Ltd.\nConsumer Discretionary\nEquity\n0.17%\nNavneet Education Ltd\nConsumer Discretionary\nEquity\n0.16%\nGreenply Industries Ltd\nMaterials\nEquity\n0.16%\nGreenlam Industries Ltd\nMaterials\nEquity\n0.13%\nDhanuka Agritech Ltd\nMaterials\nEquity\n0.10%\nJagran Prakashan Ltd\nIndustrials\nEquity\n0.03%\nEmami Ltd\nConsumer Staples\nEquity\n0.03%\nGreenpanel Industries Ltd\nMaterials\nEquity\n0.02%\nKNR Constructions Ltd\nIndustrials\nEquity\n0.01%\nNet Payables\nUnspecified\nNet Payables\n-0.08%"
+    },
+    {
+      "heading": "Minimum investments",
+      "text": "Min. for 1st investment\n₹100\nMin. for 2nd investment\n₹100\nMin. for SIP\n₹100"
+    },
+    {
+      "heading": "Understand terms",
+      "text": "Annualised returns\nAverage of the yearly returns of a mutual fund over a given period.\nAbsolute returns\nThe total return of a mutual fund over a given period."
+    },
+    {
+      "heading": "Returns and rankings",
+      "text": "Annualised returns\nAbsolute returns\nName\n10Y\nFund returns\n+16.4%\n+17.8%\n+17.3%\n+19.7%\nCategory average (\nEquity Mid Cap\n+15.5%\n+14.4%\n+16.4%\n+18.3%\nRank (\nEquity Mid Cap\n16\n--"
+    },
+    {
+      "heading": "Understand terms",
+      "text": "Expense ratio\nA fee payable to a mutual fund house for managing your mutual fund investments. It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.\nTax\nA percentage of your capital gains payable to the government upon exiting your mutual fund investments. Taxation is categorized as long-term capital gains (LTCG) and short-term capital gains (STCG) depending on your holding period and the type of fund.\nExit load\nA fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.\nStamp duty\nA form of tax payable for the purchase or sale of an asset or security."
+    },
+    {
+      "heading": "Exit Load",
+      "text": "01 Jan 2013\nExit load of 1% if redeemed within 1 year."
+    },
+    {
+      "heading": "Exit load",
+      "text": "Exit load of 1% if redeemed within 1 year."
+    },
+    {
+      "heading": "Tax implication",
+      "text": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.\nCheck past data"
+    },
+    {
+      "heading": "Compare similar funds",
+      "text": "Name\nFund Size(Cr)\nInvesco India Mid Cap Fund Direct Growth\n+8.03%\n+23.50%\n15,831.89\nHSBC Midcap Fund Direct Growth\n+15.85%\n+21.85%\n16,799.59\nWhiteOak Capital Mid Cap Fund Direct Growth\n+8.62%\n+20.89%\n8,399.71\nEdelweiss Mid Cap Direct Plan Growth\n+4.10%\n+19.73%\n19,230.16\nNippon India Growth Mid Cap Fund Direct Growth\n+4.57%\n+17.26%\n50,176.01"
+    },
+    {
+      "heading": "CS Chirag Setalvad Jan 2013 - Present View details",
+      "text": "Education\nMr. Setalvad is a B. Sc and MBA from University of North Carolina.\nExperience\nPrior to joining HDFC AMC he has worked with New Vernon Advisory Services Ltd., HDFC AMC and ING Barings N.V.\nAlso manages these schemes\nHDFC Mid Cap Fund Direct Growth\nHDFC Small Cap Fund Direct Growth\nHDFC Retirement Fund Equity Plan Direct Growth\nHDFC Retirement Fund Hybrid Equity Plan Direct Growth\nHDFC Retirement Fund Hybrid Debt Plan Direct Growth\nHDFC Children's Fund Direct Plan"
+    },
+    {
+      "heading": "DM Dhruv Muchhal Jun 2023 - Present View details",
+      "text": "Education\nMr. Dhruv has done B.Com, CA and CFA\nExperience\nPrior to joining HDFC MF,he has worked with Motilal Oswal Financial Services Ltd., Goldman Sachs, CRISIL Global Research & Analytics and Deloitte Haskins & Sells\nAlso manages these schemes\nHDFC Flexi Cap Direct Plan Growth\nHDFC Value Fund Direct Plan Growth\nHDFC Ultra Short to Short Term Fund Direct Growth\nHDFC Focused Fund Direct Growth\nHDFC Floating Interest Rates Fund Direct Plan Growth\nHDFC Balanced Advantage Fund Direct Growth\nHDFC Dynamic Term Fund Direct Plan Growth\nHDFC Medium Term Fund Direct Growth\nHDFC Medium to Long Term Fund Direct Growth\nHDFC Infrastructure Fund Direct Growth\nHDFC Corporate Bond Fund Direct Plan Growth\nHDFC Conservative Hybrid Fund Direct Growth\nHDFC Mid Cap Fund Direct Growth\nHDFC Equity Savings Direct Plan Growth\nHDFC Multi Asset Allocation Fund Direct Growth\nHDFC Aggressive Hybrid Fund Direct Plan Growth\nHDFC Short Term Fund Direct Plan Growth\nHDFC ELSS Tax Saver Fund Direct Plan Growth\nHDFC Large Cap Fund Direct Growth\nHDFC Credit Risk Fund Direct Growth\nHDFC Banking and PSU Debt Fund Direct Growth\nHDFC Arbitrage Fund Direct Growth\nHDFC Large & Mid Cap Fund Direct Growth\nHDFC Small Cap Fund Direct Growth\nHDFC Ultra Short Term Fund Direct Growth\nHDFC Liquid Direct Plan Growth\nHDFC Overnight Fund Direct Growth\nHDFC Money Market Fund Direct Growth\nHDFC Housing Opportunities Fund Direct Growth\nHDFC Banking & Financial Services Fund Direct Growth\nHDFC Multi Cap Fund Direct Growth\nHDFC Business Cycle Fund Direct Growth\nHDFC Long Term Fund Direct Growth\nHDFC MNC Fund Direct Growth\nHDFC Defence Fund Direct Growth\nHDFC Consumption Fund Direct Growth\nHDFC Transportation and Logistics Fund Direct Growth\nHDFC Technology Fund Direct Growth\nHDFC Pharma And Healthcare Fund Direct Growth\nHDFC Manufacturing Fund Direct Growth\nHDFC Children's Fund Direct Plan\nHDFC Innovation Fund Direct Growth"
+    },
+    {
+      "heading": "About HDFC Mid Cap Fund Direct Growth",
+      "text": "HDFC Mid Cap Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Chirag Setalvad is the Current Fund Manager of HDFC Mid Cap Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,076 Cr and the Latest NAV as of 06 Nov 2026 is ₹226.05.\nThe HDFC Mid Cap Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit load of 1% if redeemed within 1 year."
+    },
+    {
+      "heading": "Investment Objective",
+      "text": "The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies.\nFund benchmark\nNIFTY Midcap 150 Total Return Index\nScheme Information Document(SID)"
+    },
+    {
+      "heading": "Fund house",
+      "text": "HDFC Mutual Fund\nRank (total assets)\n#2 in India\nTotal AUM\n₹9,34,075.66 Cr\nDate of Incorporation\n10 Dec 1999\nPhone\n022 – 66316333\nE-mail\n[email protected]\nWebsite\nhttp://www.hdfcfund.com\nLaunch Date\n10 Dec 1999\nAddress\n\"HDFC House\", 2nd Floor, H. T. Parekh Marg, 165-166, BackbayReclamation, Churchgate Mumbai 400020\nCustodian\n--\nRegistrar & Transfer Agent\nCams\nEmail\n[email protected]\nWebsite\nwww.camsonline.com\nAddress\n7th Floor, Tower II, Rayala Towers, 158, Anna Salai,\nHome\nMutual Funds\nHDFC Mutual Fund\nHDFC Mid Cap Fund Direct Growth\nVaishnavi Tech Park, South Tower, 3rd Floor\nSarjapur Main Road, Bellandur, Bengaluru – 560103\nKarnataka\nContact Us\nDownload the App\nAbout Us\nPricing\nBlog\nMedia & Press\nCareers\nHelp & Support\nTrust & Safety\nInvestor Relations\nPRODUCTS\nStocks\nF&O\nMTF\nETF\nIPO\nMutual Funds\nCommodities\nGroww Terminal\n915 Terminal\nStock Screens\nAlgo Trading\nGroww Charts\nGroww Digest\nDemat Account\nGroww AMC\nPMS\nBonds\nCredit\n© 2016-\n2026\nGroww. All rights reserved.\nVersion:\n8.1.7\nShare Market\nIndices\nF&O\nMutual Funds\nETFs\nFunds By Groww\nCalculators\nIPO\nMiscellaneous\nTop Gainers Stocks\n52 Weeks High Stocks\nTata Motors\nNHPC\nITC\nWipro\nBSE\nNTPC\nTop Losers Stocks\n52 Weeks Low Stocks\nIREDA\nState Bank of India\nAdani Power\nCDSL\nCochin Shipyard\nSJVN\nMost Traded Stocks\nStocks Market Calender\nTata Steel\nTata Power\nBharat Heavy Electricals\nIndian Oil Corporation\nHUDCO\nSAIL\nStocks Feed\nSuzlon Energy\nZomato (Eternal)\nYes Bank\nInfosys\nNBCC\nIRCTC\nShare Market Live Update\nFII DII Activity\nIRFC\nBharat Electronics\nHDFC Bank\nVedanta\nReliance Power\nJaiprakash Power Ventures\nStocks Sectors\nNIFTY 50\nNIFTY Midcap 100\nNIFTY 100\nUS Tech 100\nNIFTY Realty\nNikkei index\nSENSEX\nNIFTY Smallcap 100\nNIFTY Auto\nDow Jones Futures\nNIFTY PSU Bank\nNIFTY FMCG\nNIFTY BANK\nNIFTY MIDCAP 150\nKOSPI Index\nDow Jones Index\nGift Nifty\nBSE BANKEX\nIndia VIX\nNIFTY Pharma\nHANG SENG Index\nBSE 100\nFTSE 100 Index\nS&P 500\nNIFTY NEXT 50\nNIFTY Metal\nDAX Index\nNIFTY Fin Service\nCAC Index\nNifty Pvt Bank\nNIFTY Bank Options\nSBI Options\nBajaj Finance Options\nAxis Bank Options\nHindustan Unilever Options\nNIFTY Bank Futures\nFinnifty Futures\nITC Futures\nICICI Bank Futures\nBiocon Futures\nIndusind Bank Futures\nCrude Oil Mini Future Price\nGold Petal Future Price\nSilver Micro Future Price\nNickel Future Price\nNatural Gas Mini MCX Option Chain\nCopper MCX Option Chain\nNIFTY 50 Options\nHDFC Bank Options\nWipro Options\nDLF Options\nREC Options\nYes Bank Futures\nZomato Futures\nAshok Leyland Futures\nHDFC Bank Futures\nUPL Futures\nAdani Enterprises Futures\nGold Future Price\nNatural Gas Future Price\nZinc Future Price\nGold MCX Option Chain\nGold Mini MCX Option Chain\nCommodities Expiry Calendar\nBse Sensex Options\nTata Steel Options\nNTPC Options\nBajaj Auto Options\nIndusind Bank Options\nTata Motors Futures\nInfosys Futures\nAsian Paints Futures\nLupin Futures\nCipla Futures\nIDFC First Bank Futures\nGold Mini Future Price\nNatural Gas Mini Future Price\nCopper Future Price\nCrude Oil MCX Option Chain\nSilver MCX Option Chain\nFinnifty Options\nInfosys Options\nAsian Paints Options\nCoal India Options\nAshok Leyland Options\nTata Steel Futures\nBSE Sensex Futures\nWipro Futures\nDLF Futures\nBajaj Finance Futures\nPiramal Enterprises Futures\nGold Ten Future Price\nSilver Future Price\nAluminium Future Price\nCrude Oil Mini MCX Option Chain\nSilver Mini MCX Option Chain\nTata Motors Options\nITC Options\nICICI Bank Options\nAdani Enterprises Options\nNIFTY 50 Futures\nCoal India Futures\nAxis Bank Futures\nVedanta Futures\nReliance Industries Futures\nHindustan Copper Futures\nCrude Oil Future Price\nGold Guinea Future Price\nSilver Mini Future Price\nElectricity Future Price\nNatural Gas MCX Option Chain\nZinc MCX Option Chain\nMF Screener\nDebt Mutual Funds\nBest Multicap Mutual funds\nBest Contra Mutual funds\nBest Conservative Hybrid Mutual funds\nSBI Contra Fund\nNippon India Nifty 500 Momentum 50 Index Fund\nHDFC Balanced Advantage Fund\nQuant Mid Cap Fund\nBank of India Small Cap Fund\nQuant Multi Asset Fund\nNippon India\nTATA\nBandhan\nEdelweiss\nHSBC\nUnion\nQuantum\nShriram\nCompare Mutual Funds\nBest Debt Mutual funds\nBest Large Cap Mutual funds\nBest Value Oriented Mutual funds\nParag Parikh Flexi Cap Fund\nHDFC Mid Cap Opportunities Fund\nMotilal Oswal Nifty India Defence Index Fund\nICICI Prudential India Opportunities Fund\nKotak Small Cap Fund\nCanara Robeco Bluechip Equity Fund\nGrowwMF\nMotilal Oswal\nAditya Birla\nAxis\nBank of India\nBajaj Finserv\nHelios\nITI\nTrust\nMF Knowledge Centre\nBest Equity Mutual funds\nBest Small Cap Mutual funds\nBest Arbitrage Mutual funds\nMotilal Oswal Midcap Fund\nSBI Small Cap Fund\nHDFC Small Cap Fund\nKotak Multicap Fund\nICICI Prudential Infrastructure Fund\nBandhan Nifty Alpha 50 Index Fund\nSBI\nQuant\nMirae Asset\nDSP\nBaroda BNP Paribas\nMahindra Manulife\nSundaram\nSamco\nTaurus\nMutual Fund Houses\nBest Hybrid Mutual funds\nBest ELSS Mutual funds\nBest Dividend Yield Mutual funds\nNippon India Small Cap Fund\nHDFC Flexi Cap Fund\nTata Small Cap Fund\nTata Ethical Fund\nMirae Asset ELSS Tax Saver Fund\nQuant Infrastructure Fund\nHDFC\nPPFAS\nUTI\nKotak Mahindra\nZerodha\nInvesco\nNavi\nPGIM\nMutual Funds Categories\nBest MidCap Mutual funds\nBest Sectoral Mutual funds\nBest Aggressive Hybrid Mutual funds\nQuant Small Cap Fund\nSBI Magnum Children's Benefit Fund\nUTI Nifty 50 Index Fund\nJM Flexicap Fund\nHSBC Small Cap Fund\nFranklin India Multi Cap Fund\nICICI Prudential\nLIC\nCanara Robeco\nWhiteoak\nFranklin Templeton\nNJ\nJM\n360 One\nInternational\nSilver\nMidcap\nLiquid\nDebt\nIndex\nBank Nifty\nNifty IT\nEquity\nNifty 50\nNifty Metal\nNifty Auto\nCommodity\nNifty Next 50\nHealthcare\nGold\nSensex\nDefence\nGroww Arbitrage Fund\nGroww ELSS Tax Saver Fund\nGroww Banking & Financial Services Fund\nGroww Gold ETF FOF\nGroww Gold ETF\nGroww Short Duration Fund\nGroww Aggressive Hybrid Fund\nGroww Nifty Smallcap 250 Index Fund\nGroww Multicap Fund\nGroww Nifty India Defence ETF\nGroww Liquid Fund\nGroww Dynamic Bond Fund\nGroww Nifty Non Cyclical Consumer Index Fund\nGroww Nifty India Railways PSU Index Fund\nGroww Nifty India Railways ETF\nGroww Large Cap Fund\nGroww Overnight Fund\nGroww Nifty EV & New Age Automotive ETF FoF\nGroww Nifty 200 ETF FoF\nGroww Value Fund\nGroww Nifty Total Market Index Fund\nGroww Nifty India Defence ETF FoF\nGroww Silver ETF\nSIP Calculator\nBrokerage Calculator\nRD Calculator\nHRA Calculator\nHome Loan EMI Calculator\nLumpsum Calculator\nMargin Calculator\nFD Calculator\nSalary Calculator\nROI Calculator\nSWP Calculator\nStock Average Calculator\nEPF Calculator\nTDS Calculator\nMF Calculator\nSSY Calculator\nIncome Tax Calculator\nEMI Calculator\nStep-Up SIP Calculator\nPPF Calculator\nGST Calculator\nCar Loan EMI Calculator\nWhat is IPO?\nHow to Apply for an IPO\nOpen IPOs\nWhat is Grey Market Premium?\nUpcoming IPOs\nMainboard IPOs\nClosed IPOs\nSME IPOs\nIPO Subscription Status\nIPO Allotment Status\nNFO\nPricing\nTrust & Safety\nGroww Digest\nMinor Demat Account\nIntraday\nBlog\nInvestor Relations\nInvest in Gold\nCorporate Bonds\nMedia & Press\nGold Rates\nInvest in Silver\nHUF Demat Account\nCareers\nSilver Rates\nSitemap\nAbout Us\nHelp & Support\nGlossary\nNRI Demat Account\nOthers:\nNSE\nBSE\nMCX\nTerms and Conditions\nPolicies and Procedures\nRegulatory & Other Info\nPrivacy Policy\nDisclosure\nSMART ODR\nDownload Forms\nInformation Security Practices\nInvestor Charter and Grievance\nBug Bounty\nGroww Pay - Terms of use\nGroww Pay - Privacy policy\nGroww IFSC\nMutual Funds\nOthers\nStocks\nOthers"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How to Invest in HDFC Mid Cap Fund Direct Growth?",
+      "a": "You can easily invest in HDFC Mid Cap Fund Direct Growth in a hassle-free manner on Groww. The process is extremely simple, quick and completely paperless. Invest in a few minutes with the following steps: Log on to your Groww account Search for HDFC Mid Cap Fund Direct Growth from the search box In order to invest, you will have to complete all the KYC formalities which are completely online and paperless and take a few minutes to complete Once you are done with that, you can start investing in HDFC Mid Cap Fund Direct Growth as SIP or lumpsum as per your investment objective and risk tolerance"
+    },
+    {
+      "q": "What kind of returns does HDFC Mid Cap Fund Direct Growth provide?",
+      "a": "The HDFC Mid Cap Fund Direct Growth has been there from 01 Jan 2013 and the average annual returns provided by this fund is 19.66% since its inception."
+    },
+    {
+      "q": "How much expense ratio is charged by HDFC Mid Cap Fund Direct Growth?",
+      "a": "The term Expense Ratio used for HDFC Mid Cap Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Mid Cap Fund Direct Growth is 0.74% as of 08 Nov 2026..."
+    },
+    {
+      "q": "What is the AUM of HDFC Mid Cap Fund Direct Growth?",
+      "a": "The AUM, short for Assets Under Management of HDFC Mid Cap Fund Direct Growth is ₹1,01,856.06Cr as of 08 Nov 2026."
+    },
+    {
+      "q": "How to Redeem HDFC Mid Cap Fund Direct Growth?",
+      "a": "If you want to sell your HDFC Mid Cap Fund Direct Growth holdings, go to your holding on the app or web and simply click on it. You will get two options - redeem & invest more; click on redeem and enter your desired amount or if you wish to redeem the entire holding amount then select the 'redeem all' checkbox."
+    },
+    {
+      "q": "Can I invest in SIP and Lump Sum of HDFC Mid Cap Fund Direct Growth?",
+      "a": "You can select either SIP or Lumpsum investment of HDFC Mid Cap Fund Direct Growth based on your investment objective and risk tolerance."
+    },
+    {
+      "q": "What is the NAV of HDFC Mid Cap Fund Direct Growth?",
+      "a": "The NAV of HDFC Mid Cap Fund Direct Growth is ₹226.05 as of 06 Nov 2026."
+    },
+    {
+      "q": "What is the PE and PB ratio of HDFC Mid Cap Fund Direct Growth?",
+      "a": "The PE ratio ratio of HDFC Mid Cap Fund Direct Growth is determined by dividing the market price by its earnings per share and the PB ratio of the same is evaluated by dividing the stock price per share by its book value per share (BVPS)."
+    }
+  ],
+  "has_next_data": true,
+  "text_chars": 18637
+}

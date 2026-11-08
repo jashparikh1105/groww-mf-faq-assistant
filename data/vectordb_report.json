@@ -1,0 +1,9 @@
+{
+  "collection": "hdfc_mf_faq",
+  "distance": "cosine",
+  "chunks_in_file": 274,
+  "vectors_in_db": 274,
+  "all_present": true,
+  "path": "vector_db",
+  "created_at": "2026-11-08T13:44:04"
+}
